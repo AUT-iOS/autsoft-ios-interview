@@ -2,6 +2,11 @@
 
 ![](img/logo.png)
 
+## Elvégzendő feladatok
+  - Modell osztályok elkészítése: `Airline`, `News`, `Flight`, `Complaint`
+  - Alkalmazás vázának elkészítése: be van rakva a `UITabBarController`, amelyhez tartozik `5` db nézetvezérlő. 
+  - Az érkező és induló járatok képernyők elkészítése (kedvencek mentésével együtt).
+
 ## Bevezetés
 Sokan emlegették már, hogy milyen jó volna, ha a dél-zubonyi reptérnek is lenne mobilalkalmazása, hiszen Zubonyon keresztül naponta több millió ember utazik és a reptér honlapja közel sem tökéletes. Szerencsére a járatinformációkhoz elég komoly *webes API* áll rendelkezésre, illetve a zubonyi utasok jellemzően iPhone-t használnak.
 
@@ -64,8 +69,3 @@ A térkép nézeten dél-Zubony látszik a térképen, rányomva pedig megjelenn
 
 ### Panaszbejelentés
 A utolsó lapon látható a panaszbejelentő, amely egy kitöltendő *form*. Kiöltése után a `Send` gombra kattintva küldhető fel a szerverre. Lehetőség van képet is feltölteni a szerverre.
-
-## Elvégzendő feladatok
-  - Modell osztályok elkészítése: `Airline`, `News`, `Flight`, `Complaint`
-  - Alkalmazás vázának elkészítése: be van rakva a `UITabBarController`, amelyhez tartozik `5` db nézetvezérlő. 
-  - Az érkező és induló járatok képernyők elkészítése (kedvencek mentésével együtt).

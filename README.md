@@ -29,7 +29,7 @@ A reptér aktuális híreit egy listában kell megjeleníteni: egy elemre rányo
 ### Térkép
 Zubony koordinátái megegyeznek a BME Q épület koordinátáival, a repteret egy térkép nézeten kell megjeleníteni.
 
-### Panasz belejentés
+### Panaszbejelentés
 Lehetőség van panaszt tenni, amely egy form kitöltését és elküldését jelenti, ehhez lehetőség van képet is mellékelni.
 
 ## Modell
@@ -52,7 +52,7 @@ Az alkalmazás adatohoz a végpont a [`http://szia-backend.herokuapp.com/api/`](
 ## Alkalmazás képernyők
 Az alkalmazás különböző funkciói különböző képernyőkön jelennek meg, amelyek külön lapokon (tabokon) találhatók. Az itt szereplő képernyők vázlatok(!), a feladat része, hogy a vázlatok alapján mindenki maga dizájnolja meg az alkalmazást a saját ízlése alapján.
 
-### Érkező járatok
+### Érkező járatok
 Az első lapon található az érkező járatok képernyő. Itt láthatóak az érkező járatok listaszerűen. A lista a frissítés gombra nyomva frissíthető (vagy pl. *swipe to refresh*), ilyenkor letölti a szerverről a legfrisebb járat információkat (opcionálisan a lista lefelé *swipe*-polásával). Egy elemre kattintva kedvencnek jelölhető, amelyet adatbázisban el kell tudni tárolni. Ezt valamilyen módon, pl csillag vagy felirat jelezni kell.
 
 ![](img/flight_list.png)

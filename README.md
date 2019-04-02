@@ -10,7 +10,7 @@
 ## Bevezetés
 Sokan emlegették már, hogy milyen jó volna, ha a dél-zubonyi reptérnek is lenne mobilalkalmazása, hiszen Zubonyon keresztül naponta több millió ember utazik és a reptér honlapja közel sem tökéletes. Szerencsére a járatinformációkhoz elég komoly *webes API* áll rendelkezésre, illetve a zubonyi utasok jellemzően iPhone-t használnak.
 
-A következő két órában a *SZIA* alkalmazás első pár képernyőjét kell elkészíteni `iOS` platformra, `iOS 9` minimum platform, `Swift 2+` és `Xcode 7+` használatával.
+A következő két órában a *SZIA* alkalmazás első pár képernyőjét kell elkészíteni `iOS` platformra, `iOS 11` minimum platform, `Swift 5` és `Xcode 10` használatával.
 
 ## Alkalmazás specifikációja
 Az elkészítendő mobilaklamazás négy főbb funkciót ölel fel:

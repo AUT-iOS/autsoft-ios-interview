@@ -4,14 +4,13 @@
 
 ## Tasks needs to be done
   - Create modell classes: `Airline`, `News`, `Flight`, `Complaint`
-  - Create the base of the application with a `UITabBarController` with 5 view-controller
+  - Create the base of the application with a `UITabBarController` or SwiftUI `TabView` with 5 view controller or `View`
   - Create arrive and depart flights screen (including save favourites)
 
 ## Introduction
-Many people have already mentioned how good it would be if South-Zubony airport also had a mobile application, since millions of people travel through Zubony every day and the airport's website is far from perfect. Fortunately, there is a fairly serious *web API* available for flight information, and Zubonyi passengers typically use an iPhone.
+Numerous individuals have expressed the need for a mobile application for South-Zubony Airport, as millions of passengers travel through Zubony daily and the airport's website leaves much to be desired. Fortunately, a robust *web API* is available for accessing flight information, and it's worth noting that the majority of Zubonyi passengers tend to use iPhones.
 
-In the next 8 hours you have to make this application for `iOS` platform. The minimum iOS version is `iOS 13` with `Swift 5.7`.
-
+Within the next 8 hours, you are required to develop an application for the iOS platform using `Swift 5.8`. The minimum iOS deployment target should be `iOS 14`. While incorporating `Combine` and/or `async/await` is advantageous, it is not a mandatory requirement.
 
 ## Specification
 The application contains 4 main functionality:
@@ -51,7 +50,7 @@ The backend of the application can be reached at [`https://szia-backend.autsoft.
 - `GET` /News
 
 ## Application screens
-Different functions of the application are displayed on different screens, which are located on separate pages (tabs). The screens included here are sketches(!), part of the task is that everyone can design the application based on their own taste based on the sketches.
+Each feature of the application is displayed on distinct screens situated on separate tabs. The included screens serve as rough sketches or low-fidelity wireframes to illustrate the type of data that should be displayed. As part of this task, you are encouraged to design the application according to your own preferences, based on these sketches. Familiarity with and adherence to [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios) is a considerable advantage.
 
 ### Arriving flights
 On the first page there is a screen for arriving flights. Here you can see a list of arriving flights. The list can be updated by pressing the update button (or e.g. *swipe to refresh*), in which case the latest flight information will be downloaded from the server (optionally by *swiping* down the list). By clicking on an element, it can be marked as a favorite, which must be able to be stored in a database. This must be indicated in some way, e.g. a star or inscription.

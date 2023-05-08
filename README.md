@@ -10,7 +10,7 @@
 ## Bevezetés
 Sokan emlegették már, hogy milyen jó volna, ha a dél-zubonyi reptérnek is lenne mobilalkalmazása, hiszen Zubonyon keresztül naponta több millió ember utazik és a reptér honlapja közel sem tökéletes. Szerencsére a járatinformációkhoz elég komoly *webes API* áll rendelkezésre, illetve a zubonyi utasok jellemzően iPhone-t használnak.
 
-A következő két órában a *SZIA* alkalmazás első pár képernyőjét kell elkészíteni `iOS` platformra, `Swift 5.8` használatával `iOS 14`-es minimum deployment targettel. `Combine` és/vagy `async/await` használata előny, de nem elvárás.
+A következő 8 órában a *SZIA* alkalmazás első pár képernyőjét kell elkészíteni `iOS` platformra, `Swift 5.8` használatával `iOS 14`-es minimum deployment targettel. `Combine` és/vagy `async/await` használata előny, de nem elvárás.
 
 ## Alkalmazás specifikációja
 Az elkészítendő mobilaklamazás négy főbb funkciót ölel fel:

@@ -27,7 +27,7 @@ Az alkalmazásban lehetőség van az induló és érkező járatok listaszerű m
 A reptér aktuális híreit egy listában kell megjeleníteni: egy elemre rányomva megjelenik a hír részletes leírása. A híreket az internetről kell letölteni.
 
 ### Térkép
-Zubony koordinátái megegyeznek a BME Q épület koordinátáival, a repteret egy térkép nézeten kell megjeleníteni.
+Zubony koordinátái megegyeznek a BME Q épület koordinátáival (`47.4733222`, `19.0576915`, `17`), a repteret egy térkép nézeten kell megjeleníteni.
 
 ### Panaszbejelentés
 Lehetőség van panaszt tenni, amely egy form kitöltését és elküldését jelenti, ehhez lehetőség van képet is mellékelni.
@@ -50,7 +50,7 @@ Az alkalmazás adatohoz a végpont a [`http://szia-backend.herokuapp.com/api/`](
 - `GET` /News
 
 ## Alkalmazás képernyők
-Az alkalmazás különböző funkciói különböző képernyőkön jelennek meg, amelyek külön lapokon (tabokon) találhatók. Az itt szereplő képernyők vázlatok(!), low-fi dórtvázak. A feladat része, hogy a vázlatok alapján mindenki maga dizájnolja meg az alkalmazást a saját ízlése alapján. Az [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios) ismerete és betartása előny.
+Az alkalmazás különböző funkciói különböző képernyőkön jelennek meg, amelyek külön lapokon (tabokon) találhatók. Az itt szereplő képernyők elnagyolt vázlatok(!), low-fi dórtvázak, amik inkább azt mutatják, hogy milyen adatokat megmutatni. A feladat része, hogy a vázlatok alapján mindenki maga dizájnolja meg az alkalmazást a saját ízlése alapján. Az [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios) ismerete és betartása előny.
 
 ### Érkező járatok
 Az első lapon található az érkező járatok képernyő. Itt láthatóak az érkező járatok listaszerűen. A lista a frissítés gombra nyomva frissíthető (vagy pl. *swipe to refresh*), ilyenkor letölti a szerverről a legfrisebb járat információkat (opcionálisan a lista lefelé *swipe*-polásával). Egy elemre kattintva kedvencnek jelölhető, amelyet adatbázisban el kell tudni tárolni. Ezt valamilyen módon, pl csillag vagy felirat jelezni kell.

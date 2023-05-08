@@ -42,7 +42,7 @@ Az alkalmazásban a következő objektumok szerepelnek, zárójelben a kapcsoló
 
 ## Szerver
 
-Az alkalmazás adatohoz a végpont a [`http://szia-backend.herokuapp.com/api/`](http://szia-backend.herokuapp.com/api/) címen érhető el. Kipróbálni a kéréseket a [`http://szia-backend.herokuapp.com/explorer/`](http://szia-backend.herokuapp.com/explorer/) címen lehet. Amire szükség lesz a feladat elkészítése során:
+Az alkalmazás adatohoz a végpont a https://szia-backend.autsoft.hu/api/ címen érhető el. Kipróbálni a kéréseket a https://szia-backend.autsoft.hu/explorer/ címen lehet. Amire szükség lesz a feladat elkészítése során:
 
 - `GET` /Airlines
 - `POST` /Complaints

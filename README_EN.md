@@ -27,7 +27,7 @@ In the application, it is possible to view a list of departing and arriving flig
 The airport's current news should be displayed in a list: clicking on an item will display a detailed description of the news. The news must be downloaded from the Internet.
 
 ### Map
-The coordinates of Zubony are the same as the coordinates of the BUTE Q building (47.4733222,19.0576915,17), the airport must be displayed on a map view.
+The coordinates of Zubony are the same as the coordinates of the BUTE Q building (`47.4733222`, `19.0576915`, `17`), the airport must be displayed on a map view.
 
 ### Complaints
 It is possible to make a complaint, which means filling out and sending a form, for which it is also possible to attach a picture.

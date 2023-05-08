@@ -4,13 +4,13 @@
 
 ## Elvégzendő feladatok
   - Modell osztályok elkészítése: `Airline`, `News`, `Flight`, `Complaint`
-  - Alkalmazás vázának elkészítése: be van rakva a `UITabBarController`, amelyhez tartozik `5` db nézetvezérlő. 
+  - Alkalmazás vázának elkészítése: be van rakva a `UITabBarController` vagy a SwiftUI `TabView`-ja, amelyhez tartozik `5` db nézetvezérlő vagy `View`.
   - Az érkező és induló járatok képernyők elkészítése (kedvencek mentésével együtt).
 
 ## Bevezetés
 Sokan emlegették már, hogy milyen jó volna, ha a dél-zubonyi reptérnek is lenne mobilalkalmazása, hiszen Zubonyon keresztül naponta több millió ember utazik és a reptér honlapja közel sem tökéletes. Szerencsére a járatinformációkhoz elég komoly *webes API* áll rendelkezésre, illetve a zubonyi utasok jellemzően iPhone-t használnak.
 
-A következő két órában a *SZIA* alkalmazás első pár képernyőjét kell elkészíteni `iOS` platformra, `iOS 12`-es minimum platform és `Swift 5.3` használatával.
+A következő két órában a *SZIA* alkalmazás első pár képernyőjét kell elkészíteni `iOS` platformra, `Swift 5.8` használatával `iOS 14`-es minimum deployment targettel. `Combine` és/vagy `async/await` használata előny, de nem elvárás.
 
 ## Alkalmazás specifikációja
 Az elkészítendő mobilaklamazás négy főbb funkciót ölel fel:
@@ -50,7 +50,7 @@ Az alkalmazás adatohoz a végpont a [`http://szia-backend.herokuapp.com/api/`](
 - `GET` /News
 
 ## Alkalmazás képernyők
-Az alkalmazás különböző funkciói különböző képernyőkön jelennek meg, amelyek külön lapokon (tabokon) találhatók. Az itt szereplő képernyők vázlatok(!), a feladat része, hogy a vázlatok alapján mindenki maga dizájnolja meg az alkalmazást a saját ízlése alapján.
+Az alkalmazás különböző funkciói különböző képernyőkön jelennek meg, amelyek külön lapokon (tabokon) találhatók. Az itt szereplő képernyők vázlatok(!), low-fi dórtvázak. A feladat része, hogy a vázlatok alapján mindenki maga dizájnolja meg az alkalmazást a saját ízlése alapján. Az [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios) ismerete és betartása előny.
 
 ### Érkező járatok
 Az első lapon található az érkező járatok képernyő. Itt láthatóak az érkező járatok listaszerűen. A lista a frissítés gombra nyomva frissíthető (vagy pl. *swipe to refresh*), ilyenkor letölti a szerverről a legfrisebb járat információkat (opcionálisan a lista lefelé *swipe*-polásával). Egy elemre kattintva kedvencnek jelölhető, amelyet adatbázisban el kell tudni tárolni. Ezt valamilyen módon, pl csillag vagy felirat jelezni kell.
